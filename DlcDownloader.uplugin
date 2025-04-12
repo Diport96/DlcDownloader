@@ -19,6 +19,11 @@
 			"Name": "DlcDownloader",
 			"Type": "Runtime",
 			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "DlcDownloaderTests",
+			"Type": "DeveloperTool",
+			"LoadingPhase": "Default"
 		}
 	]
 }

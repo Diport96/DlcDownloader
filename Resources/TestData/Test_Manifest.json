@@ -1,0 +1,151 @@
+{
+    "FileVersion": 1,
+    "ManifestVersion": 1,
+    "PakFiles": [
+        {
+            "LocalPath": "pakchunk0-Windows.pak",
+            "RemotePath": "/Paks/pakchunk0-Windows.pak",
+            "ChunkId": 0,
+            "FileSize": 994924779,
+            "FileHash": "SHA1:8bbcd90a3e63296492c74ece462ba7433d48b72f"
+        },
+        {
+            "LocalPath": "pakchunk0optional-Windows.pak",
+            "RemotePath": "/Paks/pakchunk0optional-Windows.pak",
+            "ChunkId": 0,
+            "FileSize": 354929981,
+            "FileHash": "SHA1:4aef58e0c89d5fe0fd117caec5f1644a76195b01"
+        },
+        {
+            "LocalPath": "pakchunk160-Windows.pak",
+            "RemotePath": "/Paks/pakchunk160-Windows.pak",
+            "ChunkId": 160,
+            "FileSize": 1779,
+            "FileHash": "SHA1:8d313473900320b833265d3843dcab0610eff1bd"
+        },
+        {
+            "LocalPath": "pakchunk161-Windows.pak",
+            "RemotePath": "/Paks/pakchunk161-Windows.pak",
+            "ChunkId": 161,
+            "FileSize": 1575030,
+            "FileHash": "SHA1:ea118a0e4294907d43ad95157120d549f4c8adc4"
+        },
+        {
+            "LocalPath": "pakchunk161optional-Windows.pak",
+            "RemotePath": "/Paks/pakchunk161optional-Windows.pak",
+            "ChunkId": 161,
+            "FileSize": 3279736,
+            "FileHash": "SHA1:cef569444b873bb8859773e3b7486e5aa16b9582"
+        },
+        {
+            "LocalPath": "pakchunk162-Windows.pak",
+            "RemotePath": "/Paks/pakchunk162-Windows.pak",
+            "ChunkId": 162,
+            "FileSize": 1575030,
+            "FileHash": "SHA1:fbee853414177c255f22f4e8ca1a1aeb4428fc92"
+        },
+        {
+            "LocalPath": "pakchunk162optional-Windows.pak",
+            "RemotePath": "/Paks/pakchunk162optional-Windows.pak",
+            "ChunkId": 162,
+            "FileSize": 3279736,
+            "FileHash": "SHA1:e5fdc5f778e7d491ad35ad7897ae8be2713647f9"
+        },
+        {
+            "LocalPath": "pakchunk163-Windows.pak",
+            "RemotePath": "/Paks/pakchunk163-Windows.pak",
+            "ChunkId": 163,
+            "FileSize": 85711235,
+            "FileHash": "SHA1:be422791768b2ddd9a875e52a97f2be1bdd33155"
+        },
+        {
+            "LocalPath": "pakchunk23-Windows.pak",
+            "RemotePath": "/Paks/pakchunk23-Windows.pak",
+            "ChunkId": 23,
+            "FileSize": 2671,
+            "FileHash": "SHA1:1b25968d3d2b426bb85bff43d66ed9d220cff9af"
+        },
+        {
+            "LocalPath": "pakchunk24-Windows.pak",
+            "RemotePath": "/Paks/pakchunk24-Windows.pak",
+            "ChunkId": 24,
+            "FileSize": 82078499,
+            "FileHash": "SHA1:122d8d988b694422a68740f111fa8fce9dbbc40f"
+        },
+        {
+            "LocalPath": "pakchunk25-Windows.pak",
+            "RemotePath": "/Paks/pakchunk25-Windows.pak",
+            "ChunkId": 25,
+            "FileSize": 5045565,
+            "FileHash": "SHA1:42a54044717d59c6261b1d49bfe06b1de77fd3c0"
+        }
+    ],
+    "SigFiles": [
+        {
+            "LocalPath": "pakchunk0-Windows.sig",
+            "RemotePath": "/Paks/pakchunk0-Windows.sig",
+            "FileSize": 61256,
+            "FileHash": "SHA1:0f4618d4249ccde1df5b4a79f54cb09fd341b3c0"
+        },
+        {
+            "LocalPath": "pakchunk0optional-Windows.sig",
+            "RemotePath": "/Paks/pakchunk0optional-Windows.sig",
+            "FileSize": 22192,
+            "FileHash": "SHA1:7bbc064ed6fb3cef6af6aaf85e4acfe96eaeeaa9"
+        },
+        {
+            "LocalPath": "pakchunk160-Windows.sig",
+            "RemotePath": "/Paks/pakchunk160-Windows.sig",
+            "FileSize": 532,
+            "FileHash": "SHA1:5bade99c3b47134be9d30660635431d38d983dd0"
+        },
+        {
+            "LocalPath": "pakchunk161-Windows.sig",
+            "RemotePath": "/Paks/pakchunk161-Windows.sig",
+            "FileSize": 628,
+            "FileHash": "SHA1:ad37a94f2de114246d7df4b2209eb032709b0538"
+        },
+        {
+            "LocalPath": "pakchunk161optional-Windows.sig",
+            "RemotePath": "/Paks/pakchunk161optional-Windows.sig",
+            "FileSize": 732,
+            "FileHash": "SHA1:d0e375b7a010efa5c406267f0ec8f54e66c1c42a"
+        },
+        {
+            "LocalPath": "pakchunk162-Windows.sig",
+            "RemotePath": "/Paks/pakchunk162-Windows.sig",
+            "FileSize": 628,
+            "FileHash": "SHA1:a6d146bc3feec25f461dd4677b571b77fd6639fc"
+        },
+        {
+            "LocalPath": "pakchunk162optional-Windows.sig",
+            "RemotePath": "/Paks/pakchunk162optional-Windows.sig",
+            "FileSize": 732,
+            "FileHash": "SHA1:46d25659c7dee909618336c379cd20a8280062f0"
+        },
+        {
+            "LocalPath": "pakchunk163-Windows.sig",
+            "RemotePath": "/Paks/pakchunk163-Windows.sig",
+            "FileSize": 5760,
+            "FileHash": "SHA1:183ce972572b2c60830a5f39523a58ea3808b561"
+        },
+        {
+            "LocalPath": "pakchunk23-Windows.sig",
+            "RemotePath": "/Paks/pakchunk23-Windows.sig",
+            "FileSize": 532,
+            "FileHash": "SHA1:7de08edbd8c14ae069382f95a6ada835a6d4d221"
+        },
+        {
+            "LocalPath": "pakchunk24-Windows.sig",
+            "RemotePath": "/Paks/pakchunk24-Windows.sig",
+            "FileSize": 5540,
+            "FileHash": "SHA1:1357ce2e8aa17cdc12c1d39b76a110122ccfacfc"
+        },
+        {
+            "LocalPath": "pakchunk25-Windows.sig",
+            "RemotePath": "/Paks/pakchunk25-Windows.sig",
+            "FileSize": 836,
+            "FileHash": "SHA1:4b51095df49f32b808a56072c9620f055ca8f538"
+        }
+    ]
+}
