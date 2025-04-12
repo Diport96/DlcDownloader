@@ -6,6 +6,25 @@
 #include "UObject/Object.h"
 #include "ManifestDto.generated.h"
 
+
+USTRUCT(BlueprintType)
+struct FSigFileDto
+{
+	GENERATED_BODY()
+
+	UPROPERTY()
+	FString LocalPath;
+
+	UPROPERTY()
+	FString RemotePath;
+
+	UPROPERTY()
+	int64 FileSize = 0;
+
+	UPROPERTY()
+	FString FileHash;
+};
+
 USTRUCT()
 struct FPakFileDto
 {
@@ -42,5 +61,5 @@ struct FManifestDto
 	TArray<FPakFileDto> PakFiles;
 	
 	UPROPERTY()
-	TArray<FPakFileDto> SigFiles;
+	TArray<FSigFileDto> SigFiles;
 };

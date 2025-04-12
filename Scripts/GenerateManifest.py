@@ -17,7 +17,7 @@ def get_file_hash(file_path):
     return sha1sum.hexdigest()
 
 
-def create_json_data(dir_path: str, manifest_version: str, deployment_version: str) -> str:
+def create_json_data(dir_path: str, file_version: int, manifest_version: int) -> str:
     pak_dirs: List[str] = glob.glob(dir_path + "/**/*.pak", recursive=True)
     print(f"Found {len(pak_dirs)} Pak entries")
     sig_dirs: List[str] = glob.glob(dir_path + "/**/*.sig", recursive=True)
@@ -50,8 +50,8 @@ def create_json_data(dir_path: str, manifest_version: str, deployment_version: s
             "FileHash": f"SHA1:{file_sha1}"
         })
     obj = {
+        "FileVersion": file_version,
         "ManifestVersion": manifest_version,
-        "DeploymentVersion": deployment_version,
         "PakFiles": pak_files,
         "SigFiles": sig_files
     }
@@ -61,7 +61,7 @@ def create_json_data(dir_path: str, manifest_version: str, deployment_version: s
 if __name__ == '__main__':
     local_path = pathlib.Path(__file__).parent.resolve()
     path_string: str = str(local_path.absolute())
-    manifest_data = create_json_data(path_string, '1', '0.1')
+    manifest_data = create_json_data(path_string, 1, 1)
     print(f"Manifest: {manifest_data}")
 
     manifest_file_name = "Example_Manifest.json"
