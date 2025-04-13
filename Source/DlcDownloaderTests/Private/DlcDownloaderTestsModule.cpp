@@ -1,4 +1,4 @@
-﻿#include "DlcDownloaderTests.h"
+﻿#include "DlcDownloaderTestsModule.h"
 
 #define LOCTEXT_NAMESPACE "FDlcDownloaderTestsModule"
 
