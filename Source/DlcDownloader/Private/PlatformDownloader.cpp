@@ -93,6 +93,7 @@ void FPlatformDownloader::HandleRequestComplete(FHttpRequestPtr HttpRequest, FHt
 		       *HttpRequest->GetURL());
 		DownloadStatus = EDownloadStatus::Failed;
 	}
+	UE_LOG(LogDlcDownloaderPlugin, Verbose, TEXT("[PlatformDownloader] Download pak file completed"));
 	OnDownloadCompleteDelegate.ExecuteIfBound(DownloadStatus);
 }
 
