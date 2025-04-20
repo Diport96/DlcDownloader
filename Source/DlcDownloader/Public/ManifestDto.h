@@ -63,3 +63,10 @@ struct FManifestDto
 	UPROPERTY()
 	TArray<FSigFileDto> SigFiles;
 };
+
+struct FDDPakFileEntry
+{
+	FPakFileDto PakFile;
+
+	bool bMounted = false;
+};
