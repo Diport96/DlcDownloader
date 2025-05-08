@@ -1,13 +1,15 @@
 ﻿#pragma once
 #include "ManifestDto.h"
 
-class FMontWork
+class DLCDOWNLOADER_API FMountWorker
 {
 public:
-	FMontWork(const FString& InCachedPakDirectory);
+	FMountWorker(const FString& InCachedPakDirectory);
 	
 	bool MountPaks(TArray<FDDPakFileEntry>& PakEntries) const;
 
+	bool UnmountPaks(TArray<FDDPakFileEntry>& PakEntries) const;
+	
 protected:
 	FString CachedPakDirectory;
 };
