@@ -22,7 +22,9 @@ public class DlcDownloader : ModuleRules
 				"CoreUObject",
 				"Engine",
 				"Slate",
-				"SlateCore"
+				"SlateCore",
+				"Json",
+				"JsonUtilities"
 			}
 		);
 	}
